@@ -1,0 +1,43 @@
+body,
+  html { 
+    width:100%;
+    height: 100%;
+    font-family: 'Montserat',sans-serif;
+    background: url("header.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1{
+    text-align: center;
+    size:3rem;
+    color:#d4dae0;
+  }
+  
+  .btn{
+    border-radius: 300px;
+    text-transform: uppercase;
+
+  }
+  .btn-xl{
+    
+    padding: 1rem 2rem;
+  }
+  .btn-primary{
+    background-color:rgb(247, 60, 14);
+    border-color:rgb(247, 60, 14);
+  }
+  .btn-primary:hover{
+    background-color:teal;
+    border-color:teal;
+    border-width:4px;
+  }
+  hr{
+    border-color:rgb(247, 60, 14);
+    border-width:3px;
+    max-width:70px;
+  }
+.buffer{
+  height:120px;
+}
